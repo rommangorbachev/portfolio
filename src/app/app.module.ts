@@ -7,6 +7,7 @@ import {GithubService} from "./github.service";
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { PanelComponent } from './panel/panel.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { OrganizationsComponent } from './organizations/organizations.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     AppComponent,
     PersonalInfoComponent,
     PanelComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    OrganizationsComponent
   ],
   imports: [
     BrowserModule,
